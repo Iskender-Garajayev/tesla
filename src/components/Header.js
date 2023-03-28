@@ -10,10 +10,10 @@ const Header = () => {
 
       <div className="header-navbar">
         <ul>
-          <li>modul s</li>
-          <li>modul 3</li>
-          <li>modul x</li>
-          <li>modul y</li>
+          <li>model s</li>
+          <li>model 3</li>
+          <li>model x</li>
+          <li>model y</li>
           <li>solar roof</li>
           <li>solar panels</li>
           <li>powerwall</li>
