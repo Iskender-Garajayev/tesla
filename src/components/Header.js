@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 const Header = () => {
 
-  const [active, setActive] = useState(true)
+  const [active, setActive] = useState(false)
 
   const handleClick = event =>{
     setActive(current => !current)
