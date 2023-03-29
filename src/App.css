@@ -1,5 +1,7 @@
+.header{
+  position: absolute;
+}
 .header-container{
-  /* position: relative; */
   width: 100%;
   height: 70px;
   display: flex;
@@ -39,6 +41,7 @@
 .header-user ul li{
   list-style-type: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .moduls-container{
@@ -67,3 +70,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.sidebar.active{
+  position: fixed ;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar{
+  display: none;
+  background-color: aliceblue;
+}
+
+.sidebar ul li{
+  list-style-type: none;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
